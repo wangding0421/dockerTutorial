@@ -1,6 +1,6 @@
 # Docker Tutorial
 
-This is a simple tutorial for using Docker.
+This is a simple tutorial for using Docker. Refering the [official tutorial](https://docs.docker.com/engine/userguide/containers/dockerizing/)
 
 ## Download and Installation
 
