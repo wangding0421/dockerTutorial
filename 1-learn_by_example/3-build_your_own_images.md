@@ -34,7 +34,27 @@ RUN gem install sinatra
 ```
      
 * Run the below command to build the image:
+
 ```shell
 $ docker build -t [username]/[imagename]:[tag] [Dockfile directory]
 ```
+
+## Setting tags on an image ##
+
+Using the below command:
+
+```shell
+$ docker tag [imageID] [username]/[imagename]:[newtag]
+```
+
+## Push Image to Docker Hub ##
+
+Using the below command:
+
+```shell
+$ docker push [username]/[imagename]
+```
+
+
+
 
