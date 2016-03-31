@@ -25,6 +25,7 @@
 * `docker start/stop/rm [container name]`: Start/Stop/Remove a given container
 * `docker port [container name] [container port]`: Get local listening port
 * `docker top [container name]`: Check container running process
+* `docker attach [OPTIONS] CONTAINER`: Attach to a running container
 
 ### Images ###
 * `docker images`: List the downloaded images
@@ -38,15 +39,11 @@
 * `docker network ls`: List networks
 * `docker network disconnect [net name] [container name]`: To dislink a container from a network
 * `docker network create [SEE BELOW] [net name]`: To create a new network
-  * `-d [net name]`: Refer from the net [net name]
+  * `-d [origin net name]`: Refer from the net [origin net name] (bridge/overlay)
 
 ### Data Volumes Containers ###
 * `docker create -v [directory name] --name [volume container name] [username]/[imagename] /bin/true`: Create a dat volume container
 * `docker remove -v`: To **REALLY** remove a data volume container
-
-
-
-
 
 ## Docker Images ##
 
