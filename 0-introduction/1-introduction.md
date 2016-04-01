@@ -6,6 +6,8 @@
 
 ### General ###
 * `docker inspect`: Inspect status
+* `docker rm $(docker ps -a -q)`: Remove all stopped containers
+* `docker rmi $(docker images | grep "^<none>" | awk "{print $3}")`: Remove all untagged images
 
 ### Container ###
 * `docker run [SEE BELOW] [image:latest(can modify tag)] [command]`: run a docker container in a given image
