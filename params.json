@@ -1,0 +1,6 @@
+{
+  "name": "Docker Tutorial",
+  "tagline": "Tutorial for Docker",
+  "body": "# Docker Tutorial\r\n\r\nThis is a simple tutorial for using Docker. Refering the [official tutorial](https://docs.docker.com/engine/userguide/containers/dockerizing/)\r\n\r\n## Download and Installation\r\n\r\nDownload and installation of docker can be found at its official website listed below:\r\n\r\n\r\n* [Linux](https://docs.docker.com/linux/) \r\n* [MAC OS X](https://docs.docker.com/mac/) \r\n* [Windows](https://docs.docker.com/windows/)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
